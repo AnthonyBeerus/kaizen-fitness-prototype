@@ -2,6 +2,7 @@ import { View, Text, Image } from 'react-native'
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { StatusBar } from 'expo-status-bar'
+import ImageSlider from '../components/imageSlider'
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
@@ -42,6 +43,11 @@ export default function Home() {
                 <Ionicons name="notifications" size={24} color="grey" />
             </View>
         </View>
+      </View>
+
+      {/* Image Slider */}
+      <View>
+        <ImageSlider />
       </View>
     </SafeAreaView>
   );
