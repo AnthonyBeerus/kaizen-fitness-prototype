@@ -10,7 +10,7 @@ import {
 export default function ImageSlider() {
   const renderItem = ({ item, index }, parallaxProps) => {
     return (
-      <View style={{ width: wp(100) - 70, height: hp(25) }}>
+      <View style={{ width: wp(100) - 70, height: hp(28) }}>
         <ParallaxImage
           source={item} // Changed 'Source' to 'source'
           containerStyle={{ flex: 1, borderRadius: 30 }}
